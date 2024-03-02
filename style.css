@@ -1,0 +1,40 @@
+html {
+     height: 100%;
+     width: 100%;
+   }
+   
+   body {
+     display: flex;
+     font-weight:500;
+     flex-direction:column;
+     gap:50px;
+     align-items: center;
+     justify-content: center;
+     height: 80vh;
+   }
+   
+   #keyContainer {
+     padding: 10px 20px;
+     font-size: 35px;
+     background-color: white;
+     border-radius:10px;
+     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+   
+     #keyword {
+       color: green;
+     }
+   
+   }
+   #keyCode{
+     padding:50px;
+     font-size: 50px;
+     border-radius:10px;
+     background-color: white;
+     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+     color: green;
+   }
+   
+   .hide{
+     display:none;
+   }
+ 
